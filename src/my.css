@@ -1,0 +1,133 @@
+.main-wrap-ser {
+    width: 100%;
+    text-align: center;
+    background: #f3f8fd;
+}
+.wrap-advantage-left {
+    margin-right: 14px;
+}
+.wrap-advantage-right {
+    margin-left: 14px;
+}
+.first .wrap-advantage-left, .first .wrap-advantage-right {
+    margin-top: 50px;
+}
+.service-head {
+    background: #205b98;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+#service-package .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.package-head {
+    background: #f3f8fd;
+    border: 1px solid #f3f8fd;
+}
+.package-name {
+    font-size: 18px;
+    color: #8c959c;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.primary {
+    font-size: 36px;
+    color: #3c434d;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 0;
+    padding-bottom: 26px;
+}
+.body-desc {
+    color: #8c959c;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.package-list {
+    color: #8c959c;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.package-price {
+    color: #3c434d;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.package-footer {
+    background: #f3f8fd;
+    border: 1px solid #f3f8fd;
+}
+.link-package {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 52px;
+
+}
+.link-package a {
+    cursor: pointer;
+    background: #fbd302;
+    color: #333;
+    text-align: center;
+    padding: 18px 70px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.package-body {
+    border-left: 1px solid #f3f8fd;
+    border-right: 1px solid #f3f8fd;
+}
+.second {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+p.body-desc-next {
+    color: #8c959c;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    padding-right: 30px;
+}
+.wrap-advantage-left .body-desc-next {
+    padding-bottom: 52px;
+}
+@media (max-width: 1200px){
+    .wrap-advantage-left .body-desc-next {
+        padding-bottom: 44px;
+    }
+}
+@media (max-width: 991px){
+    .wrap-advantage-right, .wrap-advantage-left {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-top: 30px;
+    }
+    .wrap-advantage-left .body-desc-next {
+        padding-bottom: 20px;
+    }
+    .first .wrap-advantage-right {
+        margin-top: 30px;
+    }
+    .second {
+        margin-top: 0;
+    }
+
+}
