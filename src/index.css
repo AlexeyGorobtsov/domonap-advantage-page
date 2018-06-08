@@ -2240,7 +2240,7 @@ abbr[data-original-title], abbr[title] {
     border-bottom: 1px dotted #777
 }
 
-.initialism {
+.optimalism {
     font-size: 90%;
     text-transform: uppercase
 }
@@ -2264,7 +2264,7 @@ blockquote .small, blockquote footer, blockquote small {
 }
 
 blockquote .small:before, blockquote footer:before, blockquote small:before {
-    content: "\2014     \A0"
+    content: "\2014       \A0"
 }
 
 .blockquote-reverse, blockquote.pull-right {
@@ -2280,7 +2280,7 @@ blockquote .small:before, blockquote footer:before, blockquote small:before {
 }
 
 .blockquote-reverse .small:after, .blockquote-reverse footer:after, .blockquote-reverse small:after, blockquote.pull-right .small:after, blockquote.pull-right footer:after, blockquote.pull-right small:after {
-    content: "\A0     \2014"
+    content: "\A0       \2014"
 }
 
 address {
@@ -11038,7 +11038,7 @@ html.no-touch .item.video-pod a:hover .overlayicon, html.no-touch a:hover .overl
 }
 
 .navigation nav.main > ul > li > span {
-    margin: 30px 20px 30px 20px;
+    margin: 30px 20px;
     display: inline-block
 }
 
@@ -11767,7 +11767,7 @@ ul.desc {
 
 .img-container {
     width: 100%;
-    height: 548px
+    height: 580px
 }
 
 @media (max-width: 1200px) {
@@ -11940,7 +11940,7 @@ ul.desc {
     }
 
     .adaptive_design p span {
-        display: initial
+        display: optimal
     }
 
     #bg_ad {
@@ -23960,7 +23960,7 @@ a, a:active, a:focus, a:hover {
 
 @media screen and (min-width: 992px) and (max-width: 1230px) {
     .main_phone {
-        display: none!important;
+        display: none !important
     }
 }
 
@@ -24061,7 +24061,7 @@ a, a:active, a:focus, a:hover {
     pointer-events: none
 }
 
-.slick-initialized .slick-slide {
+.slick-optimalized .slick-slide {
     display: block
 }
 
@@ -28711,6 +28711,157 @@ ul.item-body-desc {
     ul.item-body-desc {
         padding-left: 10px;
         padding-right: 10px
+    }
+}
+
+.main-wrap-ser {
+    width: 100%;
+    text-align: center;
+    background: #f3f8fd
+}
+
+.wrap-advantage-left {
+    margin-right: 14px
+}
+
+.wrap-advantage-right {
+    margin-left: 14px
+}
+
+.first .wrap-advantage-left, .first .wrap-advantage-right {
+    margin-top: 50px
+}
+
+.service-head {
+    background: #205b98;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 1
+}
+
+#service-package .col-md-6 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.package-head {
+    background: #f3f8fd;
+    border: 1px solid #f3f8fd
+}
+
+.package-name {
+    font-size: 18px;
+    color: #8c959c;
+    padding-top: 30px
+}
+
+.package-name, .primary {
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1
+}
+
+.primary {
+    font-size: 36px;
+    color: #3c434d;
+    font-weight: 500;
+    padding-bottom: 26px
+}
+
+.body-desc {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-right: 30px
+}
+
+.body-desc, .package-list {
+    color: #8c959c;
+    padding-left: 30px
+}
+
+.package-list {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0
+}
+
+.package-price {
+    color: #3c434d;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 30px
+}
+
+.package-footer {
+    background: #f3f8fd;
+    border: 1px solid #f3f8fd
+}
+
+.link-package {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 52px
+}
+
+.link-package a {
+    cursor: pointer;
+    background: #fbd302;
+    color: #333;
+    text-align: center;
+    padding: 18px 70px;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.package-body {
+    border-left: 1px solid #f3f8fd;
+    border-right: 1px solid #f3f8fd
+}
+
+.second {
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+
+p.body-desc-next {
+    color: #8c959c;
+    font-size: 14px;
+    padding: 10px 30px 20px;
+    margin-bottom: 0
+}
+
+.wrap-advantage-left .body-desc-next {
+    padding-bottom: 52px
+}
+
+@media (max-width: 1200px) {
+    .wrap-advantage-left .body-desc-next {
+        padding-bottom: 44px
+    }
+}
+
+@media (max-width: 991px) {
+    .wrap-advantage-left, .wrap-advantage-right {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-top: 30px
+    }
+
+    .wrap-advantage-left .body-desc-next {
+        padding-bottom: 20px
+    }
+
+    .first .wrap-advantage-right {
+        margin-top: 30px
+    }
+
+    .second {
+        margin-top: 0
     }
 }
 

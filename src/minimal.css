@@ -1,7 +1,10 @@
-.main-wrap-optimal {
+.main-wrap-minimal {
     background: #f3f8fd;
 }
-h1.optimal-head {
+.wrap-head {
+    text-align: center;
+}
+h1.minimal-head {
     margin-bottom: 30px;
     margin-top: 30px;
     padding: 10px 10px 10px 10px;
@@ -10,6 +13,7 @@ h1.optimal-head {
     text-align: center;
     color: #fff;
     font-weight: 400;
+    display: inline-block;
 }
 .link-back {
     margin-top: 46px;
@@ -26,15 +30,15 @@ h1.optimal-head {
     padding-left: 30px;
     font-size: 18px;
 }
-.bg-optimal {
+.bg-minimal {
     background: #205b98;
     margin-top: 50px;
 }
-.bg-optimal .img-container {
+.bg-minimal .img-container {
     width: 100%;
-    height: 476px;
+    height: 460px;
 }
-.bg-optimal .man {
+.bg-minimal .man {
     background: url(./images/initial-man.png);
     -webkit-background-size: contain;
     background-size: contain;
@@ -54,32 +58,33 @@ p.work-desc-next {
     padding-top: 20px;
     margin-bottom: 0;
 }
-.optimal-desc {
+.minimal-desc {
     font-size: 24px;
     color: #fff;
     padding-top: 110px;
     padding-left: 40px;
 }
-.optimal-cost {
+.minimal-cost {
     font-size: 24px;
     color: #fff;
     padding-left: 40px;
     font-weight: 500;
     padding-top: 50px;
 }
-.cost{
+.minimal-cost .cost {
     font-size: 36px;
-    padding-left: 20px;
+    padding-left: 0;
+    display: block;
 }
-.optimal-second {
+.minimal-second {
     margin-top: 30px;
     margin-bottom: 60px;
 }
-.optimal-head {
+.minimal-head {
     background: #f3f8fd;
     border: 1px solid #e4ebf2;
 }
-.optimal-name {
+.minimal-name {
     margin-bottom: 0;
     padding-left: 30px;
     padding-left: 30px;
@@ -89,7 +94,7 @@ p.work-desc-next {
     color: #464c55;
     font-weight: 500;
 }
-.optimal-list {
+.minimal-list {
     padding-left: 40px;
     padding-top: 26px;
     font-size: 14px;
@@ -97,15 +102,15 @@ p.work-desc-next {
     margin-bottom: 0;
     padding-bottom: 20px;
 }
-.optimal-body {
+.minimal-body {
     border-left: 1px solid #e4ebf2;
     border-right: 1px solid #e4ebf2;
 }
-.optimal-footer {
+.minimal-footer {
     background: #f3f8fd;
     border: 1px solid #e4ebf2;
 }
-.optimal-price {
+.minimal-price {
     color: #3c434d;
     font-size: 36px;
     text-align: center;
@@ -113,7 +118,7 @@ p.work-desc-next {
     padding-top: 20px;
 }
 
-.link-optimal a {
+.link-minimal a {
     cursor: pointer;
     background: #fbd302;
     color: #333;
@@ -122,35 +127,33 @@ p.work-desc-next {
     font-size: 18px;
     font-weight: 400;
 }
-.link-optimal {
+.link-minimal {
     text-align: center;
     padding-top: 14px;
     padding-bottom:40px;
 }
-.optimal-second .col-md-6 {
+.minimal-second .col-md-6 {
     padding-left: 0;
     padding-right: 0;
 }
-.wrap-optimal-left {
+.wrap-minimal-left {
     padding-right: 14px;
 }
-.wrap-optimal-right {
+.wrap-minimal-right {
     padding-left: 14px;
 }
-.wrap-optimal-left .optimal-body {
-    padding-bottom: 38px;
+.wrap-minimal-right .minimal-body {
+    padding-bottom: 68px;
 }
 
 @media (max-width: 1199px){
-    .wrap-optimal-left .optimal-body {
-        padding-bottom: 58px;
+    .wrap-minimal-left .minimal-body {
+        padding-bottom: 0;
     }
-    .cost {
-        padding-left: 0;
-    }
+
 }
 @media (max-width: 991px){
-    .wrap-optimal-left, .wrap-optimal-right {
+    .wrap-minimal-left, .wrap-minimal-right {
         padding-right: 14px;
         padding-left: 14px;
     }
@@ -159,33 +162,53 @@ p.work-desc-next {
         padding-right: 14px;
     }
 
-    .optimal-second .wrap-optimal-right {
+    .minimal-second .wrap-minimal-right {
         padding-top: 30px;
     }
-    .optimal-list {
+    .minimal-list {
         padding-right: 14px;
     }
-    .wrap-optimal-left .optimal-body {
+    .wrap-minimal-right .minimal-body {
         padding-bottom: 0;
     }
-    .optimal-price {
+    .minimal-price {
         font-size: 30px;
     }
-    .optimal-desc {
+    .minimal-desc {
         padding-top: 50px;
     }
-    .optimal-cost {
+    .minimal-cost {
         padding-top: 24px;
     }
-}
-@media (max-width: 480px){
-    .optimal-cost, .optimal-desc {
+    .col-sm-8, :after, :before {
+        -webkit-box-sizing: unset;
+        -moz-box-sizing: unset;
+        box-sizing: unset;
+    }
+    .minimal-name {
+        padding-right: 14px;
         padding-left: 14px;
     }
 }
-
+@media (max-width: 480px) {
+    .minimal-cost .cost {
+        font-size: 28px;
+    }
+    .minimal-desc {
+        padding-left: 14px;
+    }
+    .minimal-cost {
+        padding-left: 14px;
+    }
+    h1.minimal-head {
+        display: block;
+    }
+}
 @media (max-width: 360px){
-    .bg-optimal .img-container {
+    .bg-minimal .img-container {
         height: 402px;
+    }
+    .minimal-cost .cost {
+        font-size: 24px;
     }
 }
